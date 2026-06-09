@@ -9,14 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes2/aa.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/_Recovery/_MainMenu.unity
+    path: Assets/Scenes/_MainMenu.unity
+    guid: ec12beb7025b14c429d86cbebc11bf14
+  - enabled: 0
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2ff8ee92b1b2209438c640f51133e32c
+  - enabled: 1
+    path: Assets/Scenes/_MainMenu.unity
     guid: ec12beb7025b14c429d86cbebc11bf14
   - enabled: 1
-    path: Assets/_Recovery/_MainMenu.unity
-    guid: ec12beb7025b14c429d86cbebc11bf14
-  - enabled: 1
-    path: Assets/_Recovery/0.unity
+    path: Assets/Scenes/0.unity
     guid: ddbb9bf4f59d8ed4d91df350347319c6
+  - enabled: 0
+    path: Assets/Scenes/Piso 2.unity
+    guid: 6c9dd02c1a012164bb6b3a6a130b4f10
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
