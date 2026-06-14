@@ -4,10 +4,19 @@ using UnityEngine;
 public class CodigoLetrasX : MonoBehaviour
 {
     [Header("Rotación en X")]
-    public float gradosRotacion = 70f;
+    public float gradosRotacion = 60f;
 
     [Header("Velocidad de rotación")]
     public float velocidad = 2f;
+
+    [Header("Objeto que se moverá")]
+    public Transform objetoAMover;
+
+    [Header("Movimiento en X")]
+    public float incrementoX = 1f;
+
+    [Header("Valor máximo de X")]
+    public float maximoX = 5f;
 
     private bool rotando = false;
 
@@ -36,6 +45,19 @@ public class CodigoLetrasX : MonoBehaviour
         }
 
         transform.rotation = rotacionFinal;
+
+        if (objetoAMover != null)
+        {
+            Vector3 nuevaPosicion = objetoAMover.position;
+
+            if (nuevaPosicion.x >= maximoX)
+                nuevaPosicion.x = 0f;
+            else
+                nuevaPosicion.x += incrementoX;
+
+            objetoAMover.position = nuevaPosicion;
+        }
+
         rotando = false;
     }
 }
