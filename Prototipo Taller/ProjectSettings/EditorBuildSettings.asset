@@ -9,26 +9,28 @@ EditorBuildSettings:
     path: Assets/Scenes2/aa.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/Scenes/_MainMenu.unity
+    path: Assets/_Scenes/MainMenu/_MainMenu.unity
     guid: ec12beb7025b14c429d86cbebc11bf14
   - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 2ff8ee92b1b2209438c640f51133e32c
   - enabled: 1
-    path: Assets/Scenes/_MainMenu.unity
+    path: Assets/_Scenes/MainMenu/_MainMenu.unity
     guid: ec12beb7025b14c429d86cbebc11bf14
   - enabled: 1
-    path: Assets/Scenes/Cinematica 1.unity
+    path: Assets/_Scenes/Cinematics/Cinematica 1.unity
     guid: f508fc2e744f78941ae018afd7b7aa48
   - enabled: 1
-    path: Assets/Scenes/0.unity
+    path: Assets/_Scenes/Game/0.unity
     guid: ddbb9bf4f59d8ed4d91df350347319c6
   - enabled: 1
-    path: Assets/Scenes/Cinematica 2.unity
+    path: Assets/_Scenes/Cinematics/Cinematica 2.unity
     guid: 4c4a219dd6f32f544ba191b5f1e77d30
+  - enabled: 1
+    path: Assets/_Scenes/MainMenu/_MainMenu Sin Logo.unity
+    guid: 4a0893b8b344ecb438ed4f2113f9c348
   - enabled: 0
     path: Assets/Scenes/Piso 2.unity
     guid: 6c9dd02c1a012164bb6b3a6a130b4f10
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  m_UseUCBPForAssetBundles: 0
